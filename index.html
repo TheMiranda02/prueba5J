@@ -6,34 +6,57 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tablas</title>
-    
+        <style>
+            thead{background-color: blue;}
+            p{color: red;}
+        </style>
     </head>
 
     <body>
         <!--Creación de una tabla-->
-        <table border="4">
+        <!--Es mejor usar porcentajes para evitar el skroll del ususario-->
+        <!--Para hacer más rapido escribir etiquetas es "table>tr*3>td>p" -->
+        <table width="50%">
+            <tr>
+                <td>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAbXnYkJa6StMJQl83mmY2lgXuYU3rqWZ4rQ&s" alt="NO HAY UNA FOCKIN IMAGEN">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>LISTA DE ALUMNOS</p>
+                    <table border="4" width="80%">
 
-            <thead> <!--Es para que la tabla esta compuest por el encabezado y lo demás es el cuerpo-->
-                <tr> <!--Sirve para cada linea que habrá en la tabla (th)-->
-                    <th>No</th>
-                    <th>Nombre</th>
-                    <th>Calificación</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Miranda</td>
-                    <td>2.0</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Locolo</td>
-                    <td>1.0</td>
-                </tr>
-            </tbody>
-            
+                        <thead> <!--Es para que la tabla esta compuest por el encabezado y lo demás es el cuerpo-->
+                            <tr> <!--Sirve para cada linea que habrá en la tabla (th)-->
+                                <th>No</th>
+                                <th>Nombre</th>
+                                <th>Calificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Miranda</td>
+                                <td>2.0</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Locolo</td>
+                                <td>1.0</td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
         </table>
+
     </body>
 
 </html>
